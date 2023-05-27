@@ -1,0 +1,22 @@
+{
+    "name": "Ban All Bot",
+    "logo": "",
+    "keywords": [
+        "python",
+        "telegram"
+    ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+    "env": {
+        "ALTRON": {
+            "required": true
+        },
+        "BOT_TOKEN1": {
+            "required": true
+        },
+        "BOT_TOKEN2": {
+            "required": true
+        }
+    }
+}
